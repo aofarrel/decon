@@ -1,0 +1,8 @@
+version: 1.2
+workflows:
+  - name: decon
+    subclass: WDL
+    primaryDescriptorPath: /decon.wdl
+    readMePath: /readme.md
+    authors:
+      - orcid: 0000-0003-4896-1858
